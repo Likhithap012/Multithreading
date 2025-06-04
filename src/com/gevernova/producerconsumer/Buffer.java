@@ -3,7 +3,7 @@ package com.gevernova.producerconsumer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Buffer {
+public class Buffer {
     private final Queue<Integer> queue = new LinkedList<>();
     private final int capacity;
 
